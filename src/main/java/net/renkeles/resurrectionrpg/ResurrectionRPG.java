@@ -34,8 +34,8 @@ public class ResurrectionRPG
 
         MinecraftForge.EVENT_BUS.register(this);
 
-        modEventBus.addListener(this::addCreative);
-
+        //Добавление слушателя для метода добавления предметов во вкладку креатив
+        //modEventBus.addListener(this::addCreative);
 
     }
 
@@ -43,6 +43,8 @@ public class ResurrectionRPG
     {
     }
 
+    //Метод для добавления предметов во вкладку креатив, а именно во вкладку "Ингредиенты"
+    /*
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
@@ -50,6 +52,8 @@ public class ResurrectionRPG
             event.accept(ModItems.RAW_SAPPHIRE);
         }
     }
+    */
+
 
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event)
