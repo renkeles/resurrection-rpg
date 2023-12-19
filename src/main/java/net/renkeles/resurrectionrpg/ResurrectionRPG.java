@@ -13,6 +13,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.renkeles.resurrectionrpg.block.ModBlocks;
 import net.renkeles.resurrectionrpg.item.ModCreativeModTabs;
 import net.renkeles.resurrectionrpg.item.ModItems;
 import org.slf4j.Logger;
@@ -29,6 +30,8 @@ public class ResurrectionRPG
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

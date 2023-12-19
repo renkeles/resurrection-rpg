@@ -2,5 +2,8 @@
   "item.resurrectionrpg.sapphire": "Sapphire",
   "item.resurrectionrpg.raw_sapphire": "Raw Sapphire",
 
+  "block.resurrectionrpg.sapphire_block": "Block of Sapphire",
+  "block.resurrectionrpg.raw_sapphire_block": "Block of Raw Sapphire",
+
   "creativetab.resurrectionrpg_tab": "Resurrection RPG"
 }
