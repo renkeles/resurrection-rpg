@@ -14,6 +14,7 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ResurrectionRPG.MODID);
 
+    //Добавление новой вкладки в креативном меню
     public static final RegistryObject<CreativeModeTab> RESURRECTIONRPG_TAB = CREATIVE_MODE_TABS.register("resurrectionrpg_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .title(Component.translatable("creativetab.resurrectionrpg_tab"))

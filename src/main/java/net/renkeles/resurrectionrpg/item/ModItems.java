@@ -10,6 +10,7 @@ import net.renkeles.resurrectionrpg.ResurrectionRPG;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ResurrectionRPG.MODID);
 
+    //Создание и регистрация нового предмета
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
